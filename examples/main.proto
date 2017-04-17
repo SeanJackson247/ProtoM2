@@ -1,0 +1,12 @@
+let X=0;
+while(X<5){
+	native('sys.out','x:'+X);
+	if(X%2==0){
+		native('sys.out','even:'+X);
+	}
+	else if(X<3){
+		native('sys.out','less than 3:'+X);
+	}
+	X++;
+	native('sys.out','end of loop');
+}
